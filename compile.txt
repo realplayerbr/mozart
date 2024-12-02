@@ -1,7 +1,1 @@
-0.0.1
-BETA
-
-gcc -c gitClone.c -o gitClone.o
-gcc -c ...
-
-gcc gitClone.o ... -o moz.exe
+gcc yaml.c -I"./include/libyaml/include" -L"./include/libyaml/lib/" -lyaml
